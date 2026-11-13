@@ -263,7 +263,7 @@ h1{font-size:clamp(2.1rem,3.3vw + .4rem,3.2rem)}
 .task-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:var(--s2)}
 .task h3{font-size:1.02rem;line-height:1.25}
 .module .media{border-radius:0}
-.module .media img{aspect-ratio:16/9;object-fit:cover}
+.module .media img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}
 .module-top{padding:var(--s3);padding-bottom:var(--s2)}
 .module h3{min-height:2.4em}
 .module-meta{font:500 .9rem var(--font-body);color:var(--muted)!important}
