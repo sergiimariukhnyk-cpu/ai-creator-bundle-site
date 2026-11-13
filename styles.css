@@ -439,3 +439,7 @@ html{scroll-padding-top:var(--scroll-pad,76px)}
 .price-summary .sum-bundle > span:first-child{font-size:1.15rem}
 .price-summary .sum-bundle .price-now{font-size:clamp(2.75rem,8vw,3.75rem);line-height:1;letter-spacing:-.02em}
 .price-summary .sum-sep .sum-val{font-weight:500}
+
+/* ===== pricing summary: struck-through separate total, larger bundle price (v13) ===== */
+.price-summary .sum-sep .sum-val{color:var(--muted);text-decoration:line-through;text-decoration-thickness:1.5px}
+.price-summary .sum-bundle .price-now{font-size:clamp(3rem,9vw,4.25rem)}
