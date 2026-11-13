@@ -428,3 +428,8 @@ html{scroll-padding-top:var(--scroll-pad,76px)}
 @media (max-width:900px){
   .hero-copy .hero-info{order:6;margin-top:var(--s2);max-width:none;width:100%;align-self:stretch}
 }
+
+/* ===== hero image stays put when the accordion opens (v11) ===== */
+@media (min-width:901px){
+  .hero-visual{align-self:start;margin-top:clamp(1rem,4vw,3.5rem)}
+}
