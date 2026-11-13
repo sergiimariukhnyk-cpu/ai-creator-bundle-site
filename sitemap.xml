@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Template. Before launch add one <url> per indexable page using the real domain ([TODO_DOMAIN]).
+     Example: <url><loc>https://[ACTUAL_DOMAIN]/</loc></url>. Do not list thank-you.html. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+</urlset>

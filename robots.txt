@@ -1,0 +1,8 @@
+# PREVIEW: indexing disabled. For production (after setting the domain in config.js) replace with the block below.
+User-agent: *
+Disallow: /
+
+# User-agent: *
+# Allow: /
+# Disallow: /thank-you.html
+# Sitemap: https://[ACTUAL_DOMAIN]/sitemap.xml
