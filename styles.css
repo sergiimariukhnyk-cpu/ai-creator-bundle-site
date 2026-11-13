@@ -393,3 +393,25 @@ html{scroll-padding-top:var(--scroll-pad,76px)}
 @media (max-width:480px){
   .btn-lg{font-size:1rem;padding-inline:.9rem}
 }
+
+/* ===== price comparison (v9) ===== */
+.price-compare{margin-top:.4rem;color:var(--muted);font-size:.95rem;max-width:52ch;text-wrap:balance}
+.final .price-compare{color:rgba(255,255,255,.82);margin-inline:auto;text-align:center}
+.module-price{display:flex;flex-wrap:wrap;align-items:center;gap:.3rem .6rem;font-size:.9rem}
+.mp-solo{color:var(--muted)}
+.mp-in{display:inline-flex;align-items:center;gap:.35rem;padding:.15rem .6rem;border-radius:99px;background:var(--lime);color:var(--ink);font-weight:600}
+.mp-in::before{content:"\2713";font-weight:700}
+.course-prices li{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+.course-prices .cp-title{display:flex;flex-direction:column;gap:.1rem;min-width:0}
+.course-prices .cp-title small{color:var(--muted);font-size:.85rem}
+.course-prices .cp-price{font-weight:700;white-space:nowrap}
+.price-summary{margin-top:var(--s3);padding:var(--s2);border:1.5px solid var(--line);border-radius:var(--r-md);background:var(--tint);display:grid;gap:.5rem}
+.price-summary .sum-row{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+.price-summary .sum-sep{color:var(--muted)}
+.price-summary .sum-bundle{font-weight:700;font-size:1.1rem}
+.price-summary .sum-bundle .price-now{font:700 2rem/1 var(--font-head);color:var(--cobalt)}
+.price-summary .sum-save{margin:0;padding:.35rem .7rem;border-radius:var(--r-sm);background:var(--lime);color:var(--ink);font-weight:700;text-align:center}
+@media (min-width:601px){
+  #pricing .section-head{margin-inline:auto;text-align:center}
+  #pricing .price-card{margin-inline:auto;max-width:560px}
+}
