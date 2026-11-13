@@ -433,3 +433,9 @@ html{scroll-padding-top:var(--scroll-pad,76px)}
 @media (min-width:901px){
   .hero-visual{align-self:start;margin-top:clamp(1rem,4vw,3.5rem)}
 }
+
+/* ===== pricing summary: bundle price is the focal point (v12) ===== */
+.price-summary .sum-bundle{align-items:center;padding-block:.25rem}
+.price-summary .sum-bundle > span:first-child{font-size:1.15rem}
+.price-summary .sum-bundle .price-now{font-size:clamp(2.75rem,8vw,3.75rem);line-height:1;letter-spacing:-.02em}
+.price-summary .sum-sep .sum-val{font-weight:500}
