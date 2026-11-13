@@ -415,3 +415,16 @@ html{scroll-padding-top:var(--scroll-pad,76px)}
   #pricing .section-head{margin-inline:auto;text-align:center}
   #pricing .price-card{margin-inline:auto;max-width:560px}
 }
+
+/* ===== hero accordion (v10) ===== */
+.hero-info{margin-top:var(--s3);border-top:1px solid var(--line);max-width:34rem}
+.hero-info[hidden]{display:none}
+.hero-info details{border-bottom:1px solid var(--line)}
+.hero-info summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;min-height:48px;padding:.7rem 0;font-weight:600}
+.hero-info summary::-webkit-details-marker{display:none}
+.hero-info summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--cobalt)}
+.hero-info details[open] summary::after{content:"\2013"}
+.hero-info details p{margin:0;padding:0 0 1rem;color:var(--muted);max-width:60ch}
+@media (max-width:900px){
+  .hero-copy .hero-info{order:6;margin-top:var(--s2);max-width:none;width:100%;align-self:stretch}
+}
