@@ -1,0 +1,6 @@
+# Service files: not public on the Netlify preview. The pages load only the .min.js files.
+/scripts/*             /404.html  404!
+/DEPLOY.md             /404.html  404!
+/launch-checklist.md   /404.html  404!
+/app.js                /404.html  404!
+/config.js             /404.html  404!
