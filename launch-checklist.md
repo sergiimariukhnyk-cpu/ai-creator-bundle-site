@@ -3,7 +3,8 @@
 Technical readiness: ready for static hosting. Sales readiness: **blocked** until the blockers below are resolved. Search the project for `[TODO_` to find every placeholder.
 
 ## Blockers
-- [ ] **Payment URL** (`paymentUrl`, https only). Until it is set, purchase buttons only show a preview message.
+- [x] **Payment URL** is set (Stripe Payment Link in `paymentUrl`): all purchase buttons open the real checkout.
+- [ ] **Course access after payment:** Kwiga integration is not set up. Test the whole chain (Stripe payment → enrollment on Kwiga → message to the buyer) with a real or test purchase before announcing the site. The page makes no promise of automatic or instant access.
 - [ ] **Access terms:** access type and duration (`product.access`) and delivery method (`product.delivery`, `delivery.method`). Do not promise instant or automatic access until the chain payment → enrollment on Kwiga → message to the buyer has been tested.
 - [ ] **Company data:** name, address, company number, jurisdiction (`company.*`).
 - [ ] **Support email** (`support.email`).
