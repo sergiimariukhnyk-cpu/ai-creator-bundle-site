@@ -8,7 +8,7 @@ window.APP_CONFIG = {
   locale: "en-US",
   currencyCode: "USD",
   domain: "[TODO_DOMAIN]", // e.g. "https://example.com" (no trailing slash)
-  paymentUrl: "[TODO_PAYMENT_URL]", // hosted checkout URL, https only
+  paymentUrl: "https://buy.stripe.com/00weVdaSmbq7bH0fv09ws01", // hosted checkout URL, https only (Stripe Payment Link). Course access delivery via Kwiga is not set up yet.
   videoMode: "facade", // "facade" | "lazy"
 
   brand: { name: "AI Video and Images Creation" },
